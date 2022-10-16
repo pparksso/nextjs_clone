@@ -6,9 +6,11 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:prettier/recommended',
     'prettier',
+    '@typescript-eslint/parser',
   ],
   plugins: ['@typescript-eslint', 'prettier', 'react-hooks'],
   parserOptions: {
+    tsconfigRootDir: __dirname,
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
     ecmaFeatures: {
@@ -88,6 +90,10 @@ module.exports = {
       {
         avoidEscape: true,
       },
+    ],
+    'react/function-component-definition': [
+      2,
+      { namedComponents: 'arrow-function', unnamedComponents: 'arrow-function' },
     ],
     'prettier/prettier': 'error',
     'jsx-a11y/href-no-hash': 'off',

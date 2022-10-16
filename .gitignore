@@ -30,6 +30,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+nextjs-clone-dce5a-firebase-adminsdk-5m5q9-fe44654f63.json
 
 # vercel
 .vercel
