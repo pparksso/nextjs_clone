@@ -1,6 +1,7 @@
 # 개발환경
 
 Mac, node v14
+이 강의는... firebase를 더 공부한 후에 다시 시작하기로..
 
 # blahx2
 
